@@ -11,6 +11,6 @@ int main()
     printf("Enter the time: ");
     scanf("%d",&t);
     si=p*r*t/100;
-    printf("Simple Interest: %f",si);
+    printf("Simple Interest: %.2f",si);
     return 0;
 }
