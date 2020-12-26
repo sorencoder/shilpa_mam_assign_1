@@ -2,10 +2,10 @@
 int main()
 {
     int a,b;
-    float divi;
-    printf("Enter any two numbers ");
+    float divide;
+    printf("Enter any two numbers: ");
     scanf("%d%d",&a,&b);
-    divi=(float)a/b;
-    printf("Result of division= %.3f",divi);
+    divide=(float)a/b;
+    printf("Division result upto 3 digits decimal: %.3f",divide);
     return 0;
 }
