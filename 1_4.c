@@ -3,7 +3,7 @@ int main()
 {
     int a,b,sum,diff,prod;
     float divide;
-    printf("Enter any number: ");
+    printf("Enter any two numbers: ");
     scanf("%d%d",&a,&b);
     sum=a+b;
     if(a>b)
