@@ -21,8 +21,12 @@ int main()
         scanf("%d",&wic);
         printf("What is the average wickets taken per match? ");
         scanf("%d",&avgwic);
-        if(avg>=35&&avgwic>=2&&wic>=50)
-        printf("%s is all rounder player",str);
+        if(avg>35&&avgwic>=2&&wic>=50)
+        printf("%s is All rounder player",str);
+        else if(avg>35&&avgwic<2&&wic<50)
+        printf("%s is Batman",str);
+        else if(avg<35&&avgwic>=2&&wic>=50)
+        printf("%s is Bowler",str);
         else
         printf("%s is not a all rounder player",str);
     }
