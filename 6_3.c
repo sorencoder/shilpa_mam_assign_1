@@ -13,6 +13,7 @@ main ()
       sum = temp + sum * 10;
       num = num / 10;
     }
+    printf("Printing each number\n");
   while (sum > 0)
     {
       temp = sum % 10;
