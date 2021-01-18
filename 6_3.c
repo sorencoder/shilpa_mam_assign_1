@@ -21,4 +21,5 @@ main ()
       printf ("\n");
       sum = sum / 10;
     }
+    return 0;
 }
